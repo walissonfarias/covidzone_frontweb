@@ -1,0 +1,5 @@
+.map_container {
+    position: absolute;
+
+    z-index: 0;
+}

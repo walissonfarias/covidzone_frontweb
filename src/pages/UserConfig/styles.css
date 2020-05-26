@@ -1,0 +1,37 @@
+.covidzone-container{
+    width: 100%;
+    max-width: 1180%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.covidzone-container header {
+    display: flex;
+    align-items: center;
+}
+
+.covidzone-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.covidzone-container header img {
+    height: 200px;
+}
+
+.covidzone-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+    align-items: flex-end;
+    justify-items: right;
+}
+
+.covidzone-container header button {
+    border-color: #999999;
+}

@@ -1,0 +1,23 @@
+.header {
+    position: absolute;
+    height: 80px;
+    margin-bottom: 0px !important;
+    z-index: 1;
+}
+.buttons-list {
+    margin-top: 1%;
+}
+.header-logo {
+
+}
+.header-button {
+    display:flex;
+    text-align: center;
+    padding: 0px !important;
+    margin-right: 15px;
+
+}
+.header-icon {
+    width: 28px !important;
+    height: 28px !important;
+}

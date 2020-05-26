@@ -1,0 +1,100 @@
+.health-container{
+    width: 100%;
+    max-width: 1180%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.health-container header {
+    display: flex;
+    align-items: center;
+}
+
+.health-container header a {
+    width: 100%;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.health-container header img {
+    height: 200px;
+}
+
+.health-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+    align-items: flex-end;
+    justify-items: right;
+}
+
+.health-container header button {
+    border-color: #999999;
+}
+
+.health-container .page section{
+    height: 95%;
+    padding: 60px;
+    background: #F1FFF9;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-container input  {
+    width: 100%;
+    height: 40px;
+    background: #FFF;
+    color: #333333;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 0 24px;    
+    justify-content: left;
+}
+
+.health-container .page form input[type='radio'] {
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.health-container .page section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+}
+
+.health-container .page form select {
+    margin-top: 16px;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    color: #333;
+    border: 1px solid #dcdcdc;
+    background: #FFF;
+    border-radius: 8px;
+    padding: 0 24px;    
+}
+
+.health-container form .texto{
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.health-container form table{
+    width: 100%;
+}
+

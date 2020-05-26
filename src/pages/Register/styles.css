@@ -1,0 +1,55 @@
+.register-container{
+    width: 100%;
+    max-width: 1120%;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container .content {
+    width: 70%;
+    padding: 96px;
+    background: #66bb6a;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-container .content section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.register-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: 32px;
+    color: #FFF;
+}
+
+.register-container .content section p {
+    font-size: 18px;
+    color: #FFF;
+    line-height: 32px;    
+}
+
+.register-container .content form select {
+    margin-top: 16px;
+    font-size: 20px;
+    width: 100%;
+    height: 60px;
+    color: #FFF;
+    border: 1px solid #23272a;
+    background: #23272a;
+    border-radius: 8px;
+    padding: 0 24px;    
+}
+
+.register-container .content form {
+    margin-left: 70px;
+}

@@ -1,0 +1,23 @@
+.del-container {
+    width: 40%;
+    height: 200px;
+    background: #F1FFF9;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.del-container h1 { 
+    color: #333333;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.del-container p{
+    color: #333333;
+    text-align: center;
+    margin-top: 20px;
+}
