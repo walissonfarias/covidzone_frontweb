@@ -27,7 +27,7 @@ class Login extends Component {
       .doSignInWithEmailAndPassword(this.state.email, this.state.password)
       .then(authUser => {
         this.setState({ ...this.state });
-        let uId = authUser.user.uid;
+        //let uId = authUser.user.uid;
         this.setState({ isLoggedIn: true });
       })
       .catch(error => {
